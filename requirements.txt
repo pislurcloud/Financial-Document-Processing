@@ -1,0 +1,19 @@
+# Commercial Document Processor Requirements
+
+# PDF Processing
+pypdf>=3.0.0
+pdf2image>=1.16.0
+pdfplumber>=0.9.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# VLM Support (from main project)
+openai>=1.12.0
+python-dotenv>=1.0.0
+
+# Data Processing
+pandas>=2.0.0
+
+# Utilities
+python-dateutil>=2.8.0
