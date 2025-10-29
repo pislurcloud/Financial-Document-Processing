@@ -4,7 +4,7 @@ Analyzes individual pages to detect document boundaries
 """
 
 import json
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Tuple
 from pathlib import Path
 import sys
 

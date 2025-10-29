@@ -1,0 +1,43 @@
+[
+  {
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "reasoning": "No valid page analyses available",
+    "segment_pages": [
+      1
+    ],
+    "scores": {
+      "work_order": 0.0,
+      "turnover": 0.0
+    },
+    "segment_id": 1
+  },
+  {
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "reasoning": "No valid page analyses available",
+    "segment_pages": [
+      2,
+      3,
+      4
+    ],
+    "scores": {
+      "work_order": 0.0,
+      "turnover": 0.0
+    },
+    "segment_id": 2
+  },
+  {
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "reasoning": "No valid page analyses available",
+    "segment_pages": [
+      5
+    ],
+    "scores": {
+      "work_order": 0.0,
+      "turnover": 0.0
+    },
+    "segment_id": 3
+  }
+]

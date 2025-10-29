@@ -1,0 +1,35 @@
+{
+  "pdf_metadata": {
+    "title": null,
+    "author": null,
+    "subject": null,
+    "creator": null,
+    "producer": "iLovePDF",
+    "creation_date": null,
+    "page_count": 17
+  },
+  "total_pages_analyzed": 6,
+  "successful_analyses": 6,
+  "detected_segments": 2,
+  "document_boundaries": [
+    {
+      "segment": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "page_count": 1
+    },
+    {
+      "segment": 2,
+      "start_page": 2,
+      "end_page": 6,
+      "page_count": 5
+    }
+  ],
+  "page_type_distribution": {
+    "CERTIFICATE": 2,
+    "CONTINUATION": 4
+  },
+  "document_type_hints": {
+    "OTHER": 1
+  }
+}

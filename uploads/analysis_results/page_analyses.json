@@ -1,0 +1,236 @@
+[
+  {
+    "success": true,
+    "data": {
+      "page_type": "CERTIFICATE",
+      "document_type_hints": [],
+      "is_document_start": true,
+      "is_document_end": false,
+      "continues_previous": false,
+      "identifiers": {
+        "document_id": "UDYAM-UP-50-0038579",
+        "document_title": "UDYAM REGISTRATION CERTIFICATE",
+        "date": "2024-09-06",
+        "page_indicator": null,
+        "company_name": "R C INFRA DIGITAL SOLUTIONS"
+      },
+      "data_assessment": {
+        "has_tables": true,
+        "has_forms": false,
+        "has_key_values": true,
+        "data_density": "HIGH"
+      },
+      "confidence": 1.0,
+      "key_text_snippets": [
+        "UDYAM REGISTRATION CERTIFICATE",
+        "UDYAM-UP-50-0038579",
+        "R C INFRA DIGITAL SOLUTIONS",
+        "Ministry of Micro, Small and Medium Enterprises",
+        "Date of printing:- 06/09/2024"
+      ],
+      "notes": "This page is a Udyam Registration Certificate, which is a type of certificate issued by the Indian government for Micro, Small and Medium Enterprises (MSME).",
+      "page_number": 1,
+      "total_pages": 6,
+      "image_path": "uploads/pqc (1)_pages/page_001.png",
+      "model_used": "openrouter_gemini",
+      "processing_time": 6.531024217605591
+    }
+  },
+  {
+    "success": true,
+    "data": {
+      "page_type": "CERTIFICATE",
+      "document_type_hints": [],
+      "is_document_start": true,
+      "is_document_end": false,
+      "continues_previous": false,
+      "identifiers": {
+        "document_id": "IN-UP25939245138636T",
+        "document_title": "e-Stamp",
+        "date": "2021-11-08",
+        "page_indicator": null,
+        "company_name": "RC INFRA DIGITAL SOLUTIONS"
+      },
+      "data_assessment": {
+        "has_tables": false,
+        "has_forms": false,
+        "has_key_values": true,
+        "data_density": "MEDIUM"
+      },
+      "confidence": 0.95,
+      "key_text_snippets": [
+        "INDIA NON JUDICIAL",
+        "Government of Uttar Pradesh",
+        "e-Stamp",
+        "Certificate No.",
+        "Certificate Issued Date",
+        "RC INFRA DIGITAL SOLUTIONS",
+        "Stamp Duty Amount(Rs.)",
+        "Statutory Alert:"
+      ],
+      "notes": "This page is clearly an e-Stamp certificate. It contains key-value pairs detailing the certificate information, parties involved, and stamp duty amount. It appears to be the start of a document as it's a standalone certificate.",
+      "page_number": 2,
+      "total_pages": 6,
+      "image_path": "uploads/pqc (1)_pages/page_002.png",
+      "model_used": "openrouter_gemini",
+      "processing_time": 7.390918970108032
+    }
+  },
+  {
+    "success": true,
+    "data": {
+      "page_type": "CONTINUATION",
+      "document_type_hints": [
+        "OTHER"
+      ],
+      "is_document_start": false,
+      "is_document_end": false,
+      "continues_previous": true,
+      "identifiers": {
+        "document_id": null,
+        "document_title": "SUPPLEMENTARY DEED OF PARTNERSHIP",
+        "date": "2022-04-01",
+        "page_indicator": "-1-",
+        "company_name": "R.C. INFRA DEVELOPERS"
+      },
+      "data_assessment": {
+        "has_tables": false,
+        "has_forms": false,
+        "has_key_values": false,
+        "data_density": "HIGH"
+      },
+      "confidence": 0.9,
+      "key_text_snippets": [
+        "SUPPLEMENTARY DEED OF PARTNERSHIP",
+        "This deed of partnership is made and executed on this 01st April, 2022 by and between:-",
+        "Mukesh Kumar Jindal S/o Late Ramesh Kumar Jindal residing at C-71, Nirala Nagar, Lucknow-226020, Uttar Pradesh",
+        "Mr. Arun Bhomik S/o Mr. Amar Bhomik residing at 6/50, 51, 52, Ward No. 2, Transit Camp, Rudrapur, Udham Singh Nagar, Uttrakhand",
+        "Smt. Anu Jindal W/o Sri Mukesh Kumar Jindal residing at C-71, Nirala Nagar, Lucknow-226020, Uttar Pradesh",
+        "Bhavya Jindal S/o Sri Mukesh Kumar Jindal residing at C-71, Nirala Nagar, Lucknow-226020, Uttar Pradesh",
+        "R.C. INFRA DEVELOPERS",
+        "RC INFRA DIGITAL SOLUTIONS"
+      ],
+      "notes": "This page is part of a legal document, specifically a supplementary deed of partnership. It details the parties involved, their addresses, and changes to the partnership, including a change in firm name and business address. The page number is indicated as '-1-' at the top, which is unusual for page 3 of 6, suggesting it might be a section page number or an error in the provided page context.",
+      "page_number": 3,
+      "total_pages": 6,
+      "image_path": "uploads/pqc (1)_pages/page_003.png",
+      "model_used": "openrouter_gemini",
+      "processing_time": 6.814504623413086
+    }
+  },
+  {
+    "success": true,
+    "data": {
+      "page_type": "CONTINUATION",
+      "document_type_hints": [],
+      "is_document_start": false,
+      "is_document_end": false,
+      "continues_previous": true,
+      "identifiers": {
+        "document_id": null,
+        "document_title": "DEED OF PARTNERSHIP",
+        "date": "2022-03-31",
+        "page_indicator": "-2-",
+        "company_name": "R C INFRA DIGITAL SOLUTIONS"
+      },
+      "data_assessment": {
+        "has_tables": false,
+        "has_forms": false,
+        "has_key_values": true,
+        "data_density": "MEDIUM"
+      },
+      "confidence": 0.9,
+      "key_text_snippets": [
+        "NOW THIS DEED OF PARTNERSHIP WITNESSETH AS FOLLOWS",
+        "31st day of March, 2022",
+        "R C INFRA DIGITAL SOLUTIONS",
+        "1st April, 2022",
+        "Plot No. B-28, Khasra No.-102, Jindal Farm House, Memaura, Bijnaur, Lucknow Uttar Pradesh, 226401"
+      ],
+      "notes": "This page appears to be part of a legal document, likely a partnership deed, detailing terms and conditions. The page number '-2-' suggests it's not the first page, and the content continues from a previous page. The presence of signatures at the bottom might indicate the end of a section or the document itself, but without context of the full document, it's hard to be certain if it's the absolute end.",
+      "page_number": 4,
+      "total_pages": 6,
+      "image_path": "uploads/pqc (1)_pages/page_004.png",
+      "model_used": "openrouter_gemini",
+      "processing_time": 5.357468605041504
+    }
+  },
+  {
+    "success": true,
+    "data": {
+      "page_type": "CONTINUATION",
+      "document_type_hints": [],
+      "is_document_start": false,
+      "is_document_end": false,
+      "continues_previous": true,
+      "identifiers": {
+        "document_id": null,
+        "document_title": null,
+        "date": null,
+        "page_indicator": "-3-",
+        "company_name": null
+      },
+      "data_assessment": {
+        "has_tables": false,
+        "has_forms": false,
+        "has_key_values": true,
+        "data_density": "MEDIUM"
+      },
+      "confidence": 0.9,
+      "key_text_snippets": [
+        "8. Capital:",
+        "9. Profit sharing ratio:",
+        "Party of the First Part- 70%",
+        "Party of the Second Part- 30%",
+        "10. Managing Partners:",
+        "11. Interest On Capital:"
+      ],
+      "notes": "This page contains numbered sections detailing aspects of a partnership agreement, including capital, profit sharing, managing partners, and interest on capital. The page number '-3-' suggests it's an internal page number, not a 'Page X of Y' format.",
+      "page_number": 5,
+      "total_pages": 6,
+      "image_path": "uploads/pqc (1)_pages/page_005.png",
+      "model_used": "openrouter_gemini",
+      "processing_time": 5.118176460266113
+    }
+  },
+  {
+    "success": true,
+    "data": {
+      "page_type": "CONTINUATION",
+      "document_type_hints": [],
+      "is_document_start": false,
+      "is_document_end": true,
+      "continues_previous": true,
+      "identifiers": {
+        "document_id": null,
+        "document_title": null,
+        "date": null,
+        "page_indicator": "-4-",
+        "company_name": null
+      },
+      "data_assessment": {
+        "has_tables": false,
+        "has_forms": false,
+        "has_key_values": false,
+        "data_density": "MEDIUM"
+      },
+      "confidence": 0.9,
+      "key_text_snippets": [
+        "Such interest shall be considered as an expenditure of the firm",
+        "Remuneration of Partner",
+        "Mukesh Jindal and Second Part Arun Bhomik",
+        "The remuneration payable to the said working partner shall be computed in the manner laid down or deduction under section 40(b)(v)",
+        "13. Management:",
+        "The partnership business shall be managed by the managing partners.",
+        "14. Borrowings:",
+        "All borrowings from financial institutions and banks for the business of the firm shall be under the signature of all the partners."
+      ],
+      "notes": "This page contains legal or business clauses related to partnership, remuneration, management, and borrowings. The page number '-4-' suggests it's part of a larger document, but since it's page 6 of 6, it's likely the end of the document. The signatures at the bottom also indicate an end page.",
+      "page_number": 6,
+      "total_pages": 6,
+      "image_path": "uploads/pqc (1)_pages/page_006.png",
+      "model_used": "openrouter_gemini",
+      "processing_time": 5.460491180419922
+    }
+  }
+]

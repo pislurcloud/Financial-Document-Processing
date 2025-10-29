@@ -1,0 +1,66 @@
+{
+  "pdf_name": "WOs sample.pdf",
+  "total_pages": 10,
+  "pages_analyzed": 5,
+  "segments_detected": 3,
+  "document_boundaries": [
+    {
+      "segment": 1,
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "segment": 2,
+      "start_page": 2,
+      "end_page": 4
+    },
+    {
+      "segment": 3,
+      "start_page": 5,
+      "end_page": 5
+    }
+  ],
+  "classifications": [
+    {
+      "document_type": "unknown",
+      "confidence": 0.0,
+      "reasoning": "No valid page analyses available",
+      "segment_pages": [
+        1
+      ],
+      "scores": {
+        "work_order": 0.0,
+        "turnover": 0.0
+      },
+      "segment_id": 1
+    },
+    {
+      "document_type": "unknown",
+      "confidence": 0.0,
+      "reasoning": "No valid page analyses available",
+      "segment_pages": [
+        2,
+        3,
+        4
+      ],
+      "scores": {
+        "work_order": 0.0,
+        "turnover": 0.0
+      },
+      "segment_id": 2
+    },
+    {
+      "document_type": "unknown",
+      "confidence": 0.0,
+      "reasoning": "No valid page analyses available",
+      "segment_pages": [
+        5
+      ],
+      "scores": {
+        "work_order": 0.0,
+        "turnover": 0.0
+      },
+      "segment_id": 3
+    }
+  ]
+}
