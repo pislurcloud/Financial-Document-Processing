@@ -19,12 +19,12 @@ load_dotenv()
 MODEL_PROVIDERS = {
     "openrouter_gemini": {
         "provider": "openrouter",
-        "model": "google/gemini-2.5-flash",
+        "model": "meta-llama/llama-4-maverick:free",
         "api_key_env": "OPENROUTER_API_KEY",
         "base_url": "https://openrouter.ai/api/v1",
         "supports_vision": True,
         "speed": "fast",
-        "description": "Google Gemini Flash - Best for document processing"
+        "description": "meta-llama/llama-4-maverick:free - Free tier, best for document processing"
     },
     
     "groq_llama_scout": {

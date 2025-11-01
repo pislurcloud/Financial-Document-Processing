@@ -137,7 +137,36 @@ GROQ_API_KEY=gsk_your-key-here
 
 **Test with Work Orders sample:**
 ```bash
-python test_phase1.py /mnt/user-data/uploads/WOs_sample.pdf --max-pages 5
+ok got another error as things moved ahead : 📄 Converting PDF to images: uploads/WOs sample.pdf
+❌ Error during Phase 1 testing: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "/home/codespace/.local/lib/python3.12/site-packages/pdf2image/pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.12.1/lib/python3.12/subprocess.py", line 1950, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'pdfinfo'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/workspaces/Financial-Document-Processing/test_phase1.py", line 165, in main
+    test_phase1(args.pdf_path, args.max_pages)
+  File "/workspaces/Financial-Document-Processing/test_phase1.py", line 44, in test_phase1
+    image_paths, page_count, metadata = prepare_pdf_for_analysis(pdf_path)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Financial-Document-Processing/utils/pdf_processor.py", line 171, in prepare_pdf_for_analysis
+    image_paths = processor.pdf_to_images(pdf_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Financial-Document-Processing/utils/pdf_processor.py", line 39, in pdf_to_images
+    images = convert_from_path(pdf_path, dpi=self.dpi, fmt='png')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pdf2image/pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pdf2image/pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH? 5
 ```
 
 **Test with Turnover sample:**
